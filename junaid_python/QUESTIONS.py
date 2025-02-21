@@ -111,5 +111,31 @@ print(rev)
 
 
 
+create a list and print the largest among them
 
 
+largest=x[0]
+i=1
+while i<len(x):
+    if x[i]>largest:
+        largest=x[i]
+    i+=1
+
+print(largest)
+
+
+
+
+
+
+
+wap to reverse a num using while loop
+
+
+n=int(input("enter the num: "))
+rev=0
+while n !=0:
+    rem=n%10
+    rev=rev*10+rem
+    n//=10
+print(rev)
